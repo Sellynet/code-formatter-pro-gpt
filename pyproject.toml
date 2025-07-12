@@ -13,3 +13,6 @@ line-length = 88
 [tool.ruff]
 select = ["E", "F"]
 line-length = 88
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
