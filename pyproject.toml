@@ -1,0 +1,15 @@
+[project]
+name = "code-formatter-pro-gpt"
+version = "0.1.0"
+description = "GPT module to auto-format code using Black."
+requires-python = ">=3.11"
+
+[project.dependencies]
+black = "*"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+select = ["E", "F"]
+line-length = 88
