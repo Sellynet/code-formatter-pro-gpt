@@ -1,7 +1,9 @@
 """
 Code Formatter Pro GPT – v0.1.0
 """
-import subprocess, tempfile
+import subprocess
+import tempfile
+
 
 def format_code(code: str, line_length: int = 88) -> str:
     """Return code formatted by Black."""
